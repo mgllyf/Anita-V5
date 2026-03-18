@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"EN438E2m3BSZ5RzIuUeHJDK2sRtfntf8Lh1ytPSBB38="},"public":{"type":"Buffer","data":"vKf2QdVuUiE2UsTvVlyghxrlr/yLsZKV2xo+SbFEak8="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"iIMCwD/Dv9S1G565JU+fyn9SQLi4hfedITh60zVFPmQ="},"public":{"type":"Buffer","data":"HjTWHq0VxWRawVIv4OT6hhJ8PNb5GyZpjif5Hy+glD8="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"cBPbFbvV2HiwsrkZEy2p1CkAofUiSR72iPCXRpuFWE4="},"public":{"type":"Buffer","data":"EhWD++dSfrUc9/YtDESxSDnScT2Cyc7OBRfCp8b6hRg="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"EDoHqkS7kSqL5DtSF69+u3mESwjl7frFdSMFep2163o="},"public":{"type":"Buffer","data":"C3L42u+paTuZAvv8NIgVkOq0Cc54QSez4YdaqusQ7y4="}},"signature":{"type":"Buffer","data":"xDzsRGb1l2Xrhd5VGNv8HJar3x6545kevVK25iQptSuPk0LnLljgByHODHna/Obf2zosdrcuE/RJm2GBfCTnhA=="},"keyId":1},"registrationId":173,"advSecretKey":"Pm15WimUp7p/taPH0yVvV1fSBMbH+ReFIffSOrdfxco=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"CYRILDEV","me":{"id":"233551961429:3@s.whatsapp.net","lid":"278443115712535:3@lid"},"account":{"details":"CLrqllQQ6/rrzQYYASAAKAA=","accountSignatureKey":"Ieb+qLsW81RvhXZSNcmyONNUotka3EtbJvJj8WYQjF4=","accountSignature":"NbuS635QLUT6qc85Q0Q1GtCh0uyIY7edipiPJWRaMgKi//FzXDJtvh3mYCbVZaOigf3HkcXYcOXG5DbWKBkSDQ==","deviceSignature":"OeAhsmQSjWP1jSfZ7yLF2WsCLCJtWoUa1JO81c8ayrPY4boVE9pdgwjVN+MgwPs2Lq6i8Q/7EocPPzeKo+TShA=="},"signalIdentities":[{"identifier":{"name":"233551961429:3@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSHm/qi7FvNUb4V2UjXJsjjTVKLZGtxLWybyY/FmEIxe"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CBIIBQgN"},"lastAccountSyncTimestamp":1773862265,"lastPropHash":"2P1Yhf","preKeys":{"private":{"type":"Buffer","data":"SIt8ihlFQM8eqzivALQh5wMsvEryYiGNBn3wTxZKeUY="},"public":{"type":"Buffer","data":"OPGpm6gFWQ+fscdYEXeqbgtS/6/eTKKxA39nSheVvBI="}},"senderKeys":{},"timestamp":"2026-03-18T19:31:10.882Z"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -16,7 +16,7 @@
     },
     "AUTO_REACT": {
       "description": "Set true to auto-react to messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "AUTO_STATUS_REACT": {
@@ -26,12 +26,12 @@
     },
       "ANTIDELETE": {
       "description": "Set true to see deleted messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "WELCOME": {
       "description": "Put 'false' or 'true' to enable or disable WELCOME.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "AUTO_VIEW_STATUS": {
@@ -41,7 +41,7 @@
     },
     "CHATBOT": {
       "description": "Set to true if you want your bot to autoreply messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
